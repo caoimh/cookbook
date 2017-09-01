@@ -1,0 +1,43 @@
+<div class="contentHolder">
+
+  <h1>Internal Communication</h1>
+  <figure class="profile">
+    <img src="images/Ulla.png" alt="">
+    <figcaption>Ulla</figcaption>
+  </figure>
+
+
+  <div class="resource">
+    <div class="iconHolder"><img src="images/icon-pdf.png" alt=""></div>
+    <div class="resourceDetail">
+      <h2><a href="" class="resourceLink">2016-08-24 - Title of the file.ext</a></h2>
+      <p>Last modified DD-MM-YYYY</p>
+    </div>
+  </div>
+
+  <div class="resource">
+    <div class="iconHolder"><img src="images/icon-pdf.png" alt=""></div>
+    <div class="resourceDetail">
+      <h2><a href="" class="resourceLink">2016-08-24 - Title of the file.ext</a></h2>
+      <p>Last modified DD-MM-YYYY</p>
+    </div>
+  </div>
+
+  <div class="resource">
+    <div class="iconHolder"><img src="images/icon-pdf.png" alt=""></div>
+    <div class="resourceDetail">
+      <h2><a href="" class="resourceLink">2016-08-24 - Title of the file.ext</a></h2>
+      <p>Last modified DD-MM-YYYY</p>
+    </div>
+  </div>
+
+  <div class="resource">
+    <div class="iconHolder"><img src="images/icon-pdf.png" alt=""></div>
+    <div class="resourceDetail">
+      <h2><a href="" class="resourceLink">2016-08-24 - Title of the file.ext</a></h2>
+      <p>Last modified DD-MM-YYYY</p>
+    </div>
+  </div>
+
+
+</div>

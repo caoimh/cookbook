@@ -1,0 +1,81 @@
+/*-- NAVIGATION --*/
+
+nav {
+/*background-color: #fdfd88;*/
+}
+
+nav#globalBar {
+  line-height: 1em;
+  @include flexbox();
+  @include paddingTRBL(0.5);
+  @include align-items(center);
+  @extend .black;
+  @include justify-content(space-between);
+
+  button {
+    font-size: 0.875em;
+    @extend .small;
+    @include marginL(0.25);
+  }
+
+  img {
+  	padding :0px!important;
+  	margin : 0px!important;
+  	display : block;
+  }
+
+  a.branding {
+    line-height : 0.5em;
+    margin : 0px;
+    padding : 0px;
+    display : inline;
+  }
+}
+
+
+
+
+
+
+.pagination {
+  display : inline-block;
+  a {
+    margin-left:1px;
+    text-decoration: none;
+    line-height : 1em;
+    @extend .grey;
+    @extend .linkAsButton;
+    color : $darkGrey;
+  }
+  a:hover {
+    @extend .superDarkGrey;
+    color : $yellow;
+  }
+  a.selected {
+    @extend .superDarkGrey;
+  }
+
+  button {
+    vertical-align: baseline;
+     margin-left : 1px;
+     @include border-radius(0);
+    span {
+      font-size: 0.875em;
+    }
+  }
+}
+
+
+.pagination button:first-child {
+  @include border-left-radius(0.25em);
+}
+
+.pagination button:last-child {
+  @include border-right-radius(0.25em);
+}
+
+.pagination.small > button,
+.pagination.small > a
+{
+  @extend .small;
+}

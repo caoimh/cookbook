@@ -1,0 +1,22 @@
+/*-- FIGURE --*/
+
+figure {
+  margin-bottom: 2em;
+}
+
+
+figure img {
+	width: 5em;
+	height: 5em;
+	margin :auto;
+	display: block;
+	text-align: center;
+	@include border-radius(2.5em);
+}
+
+figcaption {
+	margin: auto;
+  margin-top:0.5em;
+	text-align: center;
+	color : $grey_dark;
+}

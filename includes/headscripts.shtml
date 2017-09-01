@@ -1,0 +1,11 @@
+
+<script type="text/javascript">
+var totalCount = 5;
+function ChangeIt()
+{
+var num = Math.ceil( Math.random() * totalCount );
+document.body.background = 'images/'+'bg00' +num+'.png';
+//document.body.style.backgroundSize = "cover";// Background repeat
+console.log('images/'+'bg00' +num+'.png');
+}
+</script>

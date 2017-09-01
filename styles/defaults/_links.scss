@@ -1,0 +1,21 @@
+/*-- LINKS --*/
+
+a {
+    color: $blue;
+}
+
+a:visited {
+    color: $blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color : $pink;
+    text-decoration: none;
+}
+
+// linker som ser ut som knapper, skal ikke ha samme styling som linker
+a.button {
+    color: $black;
+    text-decoration: none;
+}

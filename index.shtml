@@ -1,0 +1,46 @@
+<!--#include virtual="includes/htmlstart.shtml" -->
+<!--#include virtual="includes/headstart.shtml" -->
+<!--#include virtual="includes/meta.shtml" -->
+<!--#include virtual="includes/title.shtml" -->
+<!--#include virtual="includes/headscripts.shtml" -->
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/simple-scrollbar.css">
+<!--#include virtual="includes/headstop.shtml" -->
+<!--#include virtual="includes/bodystart.shtml" -->
+<!--#include virtual="includes/browsehappy.shtml" -->
+
+
+<section class="main">
+  <div class="innerwrapper">
+    <div class="leftDiv">
+      <div class="leftEdge">
+        <div class="page blue">&nbsp;</div>
+        <div class="page blue" style="border : 0;">&nbsp;</div>
+        <div class="page step-2 grey_light">&nbsp;</div>
+        <div class="page step-1 grey_extraLight">&nbsp;</div>
+      </div>
+      <div class="leftContent" style=" display: inline-block;" ss-container>
+        <hr class="style-birdy">
+        <!--#include virtual="includes/content/test.shtml" -->
+      </div>
+    </div>
+
+    <div class="rightDiv">
+      <div class="rightContent" style=" display: inline-block;" ss-container>
+        <hr class="style-birdy">
+        <!--#include virtual="includes/content/test.shtml" -->
+      </div>
+      <div class="rightEdge">
+        <div class="page step-1 grey_extraLight">&nbsp;</div>
+        <div class="page step-2 grey_light">&nbsp;</div>
+        <div class="page step-3 grey">&nbsp;</div>
+        <div class="page blue">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--#include virtual="includes/basescripts.shtml" -->
+<!--#include virtual="includes/bodystop.shtml" -->
+<!--#include virtual="includes/htmlstop.shtml" -->

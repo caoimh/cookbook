@@ -1,0 +1,215 @@
+@import 'partials/all';
+@import 'normalise/all';
+@import 'defaults/all';
+
+*, *:before, *:after
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+	position: absolute;
+}
+
+body {
+  background: $grey_superDark;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  max-width: 80em;
+  background-color : $pink;
+  margin: auto;
+  //margin-top : 15vh;
+  @include flexbox();
+  @include flex-direction(column);
+  @include justify-content(flex-start);
+  @include align-items(stretch);
+  @include align-content(stretch);
+  @include border-radius(4px);
+	height: 75vh;
+	position: relative;
+	bottom: 0;
+	top : 25vh;
+  //@include box-shadow(8px,4px,4px,0, rgba(0,0,0,0.25), false);
+  /*
+  background: url(../images/bookBackground.svg) top left;
+  background-size: 100% auto;
+  background-repeat: repeat;
+  */
+}
+
+.main:before {
+	content:"\00a0";
+}
+
+.innerwrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 80em;
+  //background-color : $grey_superLight;
+  margin: auto;
+  @include flexbox();
+  @include flex-direction(row);
+  @include justify-content(flex-start);
+  @include align-items(stretch);
+  @include align-content(stretch);
+}
+
+.leftDiv, .rightDiv {
+  @include flex(1);
+  @include flexbox();
+  @include flex-direction(row);
+  @include justify-content(flex-start);
+  @include align-items(stretch);
+  @include align-content(stretch);
+  //overflow: auto;
+  width : 100%;
+  padding-top : 0;
+  height: 100%;
+}
+
+.leftDiv {
+  width : 100%;
+}
+
+.rightDiv {
+  width : 100%;
+}
+
+.leftEdge {
+  width: 10%;
+  height: 100%;
+  margin: auto;
+  background-color: green;
+  @include flexbox();
+  @include flex-direction(row);
+  @include justify-content(flex-start);
+  @include align-items(stretch);
+  @include align-content(stretch);
+}
+
+.leftContent {
+  @include flex(1);
+  width : 90%;
+  padding : 1.5em;
+  background-color: $grey_superLight;
+  background: linear-gradient(90deg, $grey_superLight, $grey_superLight 85%, $grey_light);
+  border-right: solid 1px $grey;
+  @include border-left-radius(4px);
+  @include border-right-radius(48px);
+  @include border-bottom-radius(0px);
+}
+
+.rightEdge {
+  width: 10%;
+  height: 100%;
+  margin: auto;
+  background-color: $blue;
+  @include flexbox();
+  @include flex-direction(row);
+  @include justify-content(flex-start);
+  @include align-items(stretch);
+  @include align-content(stretch);
+}
+
+.rightEdge .page {
+  border-right : solid 1px rgba(0,0,0,0.15);
+  @include border-right-radius(4px);
+  @include box-shadow(2px,-2px,8px,0, rgba(0,0,0,0.25), false);
+}
+
+.leftEdge .page {
+  border-left : solid 1px rgba(0,0,0,0.15);
+  @include border-left-radius(2px);
+  @include box-shadow(-1px,-2px,16px,0, rgba(0,0,0,0.25), false);
+}
+
+.page.blue {
+  @include box-shadow(0,0,0,0, rgba(0,0,0,0), false);
+}
+
+.step-1 {
+  margin-top : 1em;
+}
+.step-2 {
+  margin-top : 2em;
+}
+.step-3 {
+  margin-top : 3em;
+}
+.step-4 {
+  margin-top : 4em;
+}
+
+
+.rightContent {
+  @include flex(1);
+  width: 90%;
+  padding : 1.5em;
+  background-color: $grey_superLight;
+  @include border-right-radius(4px);
+  @include border-left-radius(48px);
+  @include border-bottom-radius(0px);
+  background: linear-gradient(90deg, $grey_light, $grey_superLight 15%, $grey_superLight);
+}
+
+.contentWrapper {
+  @extend .white;
+  @include border-radius(4px);
+  @include paddingTRBL(1.5);
+  overflow: auto;
+  //background-color: rgba(255,255,255,0.25);
+}
+
+.page {
+  width: 1em;
+}
+
+
+/*-------- TYPOGRAPHY --------*/
+
+h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align : center;
+  color: $grey_dark;
+}
+
+/*-------- MEDIA QUERIES --------*/
+
+@media (max-width: 960px) {
+body {
+  background-color: $grey_superLight;
+}
+.main {
+   background : none;
+   background-color: $grey_superLight;
+   margin-top : 0;
+  }
+.innerwrapper {
+   @include flex-direction(column);
+   margin : 0;
+ }
+
+.leftDiv, .leftContent, .rightDiv, .rightContent {
+   //background: $grey_light;
+   margin: 0;
+   width : 100%;
+   overflow: visible;
+   display: block;
+   background: none;
+   border : 0;
+ }
+
+
+ .rightEdge,.leftEdge {display: none;}
+}

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1216" height="60" viewBox="0 0 1216 60">
+  <defs>
+    <linearGradient id="a" x1="100%" x2="0%" y1="50%" y2="50%">
+      <stop stop-color="#D8D8D8" offset="0%"/>
+      <stop stop-color="#F5F6F6" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 1)">
+    <g transform="translate(607)">
+      <g transform="translate(0 47)">
+        <rect width="2" height="12" x="607" fill="#128898" transform="matrix(-1 0 0 1 1216 0)"/>
+        <path fill="#36C2D6" d="M600,0 L607,0 L607,12 L596,12 L596,4 L596,4 C596,1.790861 597.790861,4.05812251e-16 600,0 Z" transform="matrix(-1 0 0 1 1203 0)"/>
+        <rect width="1" height="12" x="596" fill="#31B2C5" transform="matrix(-1 0 0 1 1193 0)"/>
+        <rect width="1" height="12" x="569" fill="#D3D4D4" transform="matrix(-1 0 0 1 1139 0)"/>
+        <rect width="1" height="12" x="556" fill="#D3D4D4" transform="matrix(-1 0 0 1 1113 0)"/>
+        <rect width="509" height="12" x="47" fill="#F5F6F6" transform="matrix(-1 0 0 1 603 0)"/>
+        <rect width="55" height="12" fill="url(#a)" transform="matrix(-1 0 0 1 55 0)"/>
+        <rect width="12" height="12" x="557" fill="#E6E7E7" transform="matrix(-1 0 0 1 1126 0)"/>
+        <rect width="1" height="12" x="582" fill="#AEAEAE" transform="matrix(-1 0 0 1 1165 0)"/>
+        <rect width="12" height="12" x="570" fill="#D8D9D8" transform="matrix(-1 0 0 1 1152 0)"/>
+        <rect width="1" height="12" x="595" fill="#A8A8A8" transform="matrix(-1 0 0 1 1191 0)"/>
+        <rect width="12" height="12" x="583" fill="#C4C4C4" transform="matrix(-1 0 0 1 1178 0)"/>
+      </g>
+      <g transform="translate(0 35)">
+        <rect width="1" height="12" x="569" fill="#D3D4D4" transform="matrix(-1 0 0 1 1139 0)"/>
+        <rect width="1" height="12" x="556" fill="#D3D4D4" transform="matrix(-1 0 0 1 1113 0)"/>
+        <rect width="509" height="12" x="47" fill="#F5F6F6" transform="matrix(-1 0 0 1 603 0)"/>
+        <rect width="55" height="12" fill="url(#a)" transform="matrix(-1 0 0 1 55 0)"/>
+        <rect width="12" height="12" x="557" fill="#E6E7E7" transform="matrix(-1 0 0 1 1126 0)"/>
+        <rect width="1" height="12" x="582" fill="#AEAEAE" transform="matrix(-1 0 0 1 1165 0)"/>
+        <rect width="12" height="12" x="570" fill="#D8D9D8" transform="matrix(-1 0 0 1 1152 0)"/>
+        <rect width="1" height="12" x="595" fill="#A8A8A8" transform="matrix(-1 0 0 1 1191 0)"/>
+        <path fill="#C4C4C4" d="M587,0 L595,0 L595,12 L583,12 L583,4 L583,4 C583,1.790861 584.790861,4.05812251e-16 587,0 Z" transform="matrix(-1 0 0 1 1178 0)"/>
+      </g>
+      <g transform="translate(0 23)">
+        <rect width="1" height="12" x="569" fill="#D3D4D4" transform="matrix(-1 0 0 1 1139 0)"/>
+        <rect width="1" height="12" x="556" fill="#D3D4D4" transform="matrix(-1 0 0 1 1113 0)"/>
+        <rect width="509" height="12" x="47" fill="#F5F6F6" transform="matrix(-1 0 0 1 603 0)"/>
+        <rect width="55" height="12" fill="url(#a)" transform="matrix(-1 0 0 1 55 0)"/>
+        <rect width="12" height="12" x="557" fill="#E6E7E7" transform="matrix(-1 0 0 1 1126 0)"/>
+        <rect width="1" height="12" x="582" fill="#AEAEAE" transform="matrix(-1 0 0 1 1165 0)"/>
+        <path fill="#D8D9D8" d="M574,0 L582,0 L582,12 L570,12 L570,4 L570,4 L570,4 C570,1.790861 571.790861,4.05812251e-16 574,0 Z" transform="matrix(-1 0 0 1 1152 0)"/>
+      </g>
+      <rect width="1" height="12" x="569" y="11" fill="#D3D4D4" transform="matrix(-1 0 0 1 1139 0)"/>
+      <rect width="1" height="12" x="556" y="11" fill="#D3D4D4" transform="matrix(-1 0 0 1 1113 0)"/>
+      <rect width="509" height="12" x="47" y="11" fill="#F5F6F6" transform="matrix(-1 0 0 1 603 0)"/>
+      <rect width="55" height="12" y="11" fill="url(#a)" transform="matrix(-1 0 0 1 55 0)"/>
+      <path fill="#E6E7E7" d="M561,11 L569,11 L569,23 L557,23 L557,15 L557,15 C557,12.790861 558.790861,11 561,11 Z" transform="matrix(-1 0 0 1 1126 0)"/>
+      <path fill="#F5F6F6" d="M55,12 L55,4 L55,4 C55,1.790861 56.7627139,4.05812251e-16 58.9371316,0 L58.9371316,0 L556,0 L556,12" transform="matrix(-1 0 0 1 611 0)"/>
+      <path stroke="#D3D4D4" d="M47.5,12 L47.5,4 L47.5,4 C47.5,1.790861 49.290861,0 51.5,0 L51.5,0 L556.5,0" transform="matrix(-1 0 0 1 604 0)"/>
+      <rect width="55" height="12" fill="url(#a)" transform="matrix(-1 0 0 1 55 0)"/>
+    </g>
+    <g transform="matrix(-1 0 0 1 609 0)">
+      <g transform="translate(0 47)">
+        <rect width="2" height="12" x="607" fill="#128898" transform="matrix(-1 0 0 1 1216 0)"/>
+        <path fill="#36C2D6" d="M600,0 L607,0 L607,12 L596,12 L596,4 L596,4 C596,1.790861 597.790861,4.05812251e-16 600,0 Z" transform="matrix(-1 0 0 1 1203 0)"/>
+        <rect width="1" height="12" x="596" fill="#31B2C5" transform="matrix(-1 0 0 1 1193 0)"/>
+        <rect width="1" height="12" x="569" fill="#D3D4D4" transform="matrix(-1 0 0 1 1139 0)"/>
+        <rect width="1" height="12" x="556" fill="#D3D4D4" transform="matrix(-1 0 0 1 1113 0)"/>
+        <rect width="509" height="12" x="47" fill="#F5F6F6" transform="matrix(-1 0 0 1 603 0)"/>
+        <rect width="55" height="12" fill="url(#a)" transform="matrix(-1 0 0 1 55 0)"/>
+        <rect width="12" height="12" x="557" fill="#E6E7E7" transform="matrix(-1 0 0 1 1126 0)"/>
+        <rect width="1" height="12" x="582" fill="#AEAEAE" transform="matrix(-1 0 0 1 1165 0)"/>
+        <rect width="12" height="12" x="570" fill="#D8D9D8" transform="matrix(-1 0 0 1 1152 0)"/>
+        <rect width="1" height="12" x="595" fill="#A8A8A8" transform="matrix(-1 0 0 1 1191 0)"/>
+        <rect width="12" height="12" x="583" fill="#C4C4C4" transform="matrix(-1 0 0 1 1178 0)"/>
+      </g>
+      <g transform="translate(0 35)">
+        <rect width="1" height="12" x="569" fill="#D3D4D4" transform="matrix(-1 0 0 1 1139 0)"/>
+        <rect width="1" height="12" x="556" fill="#D3D4D4" transform="matrix(-1 0 0 1 1113 0)"/>
+        <rect width="509" height="12" x="47" fill="#F5F6F6" transform="matrix(-1 0 0 1 603 0)"/>
+        <rect width="55" height="12" fill="url(#a)" transform="matrix(-1 0 0 1 55 0)"/>
+        <rect width="12" height="12" x="557" fill="#E6E7E7" transform="matrix(-1 0 0 1 1126 0)"/>
+        <rect width="1" height="12" x="582" fill="#AEAEAE" transform="matrix(-1 0 0 1 1165 0)"/>
+        <rect width="12" height="12" x="570" fill="#D8D9D8" transform="matrix(-1 0 0 1 1152 0)"/>
+        <rect width="1" height="12" x="595" fill="#A8A8A8" transform="matrix(-1 0 0 1 1191 0)"/>
+        <path fill="#C4C4C4" d="M587,0 L595,0 L595,12 L583,12 L583,4 L583,4 C583,1.790861 584.790861,4.05812251e-16 587,0 Z" transform="matrix(-1 0 0 1 1178 0)"/>
+      </g>
+      <g transform="translate(0 23)">
+        <rect width="1" height="12" x="569" fill="#D3D4D4" transform="matrix(-1 0 0 1 1139 0)"/>
+        <rect width="1" height="12" x="556" fill="#D3D4D4" transform="matrix(-1 0 0 1 1113 0)"/>
+        <rect width="509" height="12" x="47" fill="#F5F6F6" transform="matrix(-1 0 0 1 603 0)"/>
+        <rect width="55" height="12" fill="url(#a)" transform="matrix(-1 0 0 1 55 0)"/>
+        <rect width="12" height="12" x="557" fill="#E6E7E7" transform="matrix(-1 0 0 1 1126 0)"/>
+        <rect width="1" height="12" x="582" fill="#AEAEAE" transform="matrix(-1 0 0 1 1165 0)"/>
+        <path fill="#D8D9D8" d="M574,0 L582,0 L582,12 L570,12 L570,4 L570,4 L570,4 C570,1.790861 571.790861,4.05812251e-16 574,0 Z" transform="matrix(-1 0 0 1 1152 0)"/>
+      </g>
+      <rect width="1" height="12" x="569" y="11" fill="#D3D4D4" transform="matrix(-1 0 0 1 1139 0)"/>
+      <rect width="1" height="12" x="556" y="11" fill="#D3D4D4" transform="matrix(-1 0 0 1 1113 0)"/>
+      <rect width="509" height="12" x="47" y="11" fill="#F5F6F6" transform="matrix(-1 0 0 1 603 0)"/>
+      <rect width="55" height="12" y="11" fill="url(#a)" transform="matrix(-1 0 0 1 55 0)"/>
+      <path fill="#E6E7E7" d="M561,11 L569,11 L569,23 L557,23 L557,15 L557,15 C557,12.790861 558.790861,11 561,11 Z" transform="matrix(-1 0 0 1 1126 0)"/>
+      <path fill="#F5F6F6" d="M55,12 L55,4 L55,4 C55,1.790861 56.7627139,4.05812251e-16 58.9371316,0 L58.9371316,0 L556,0 L556,12" transform="matrix(-1 0 0 1 611 0)"/>
+      <path stroke="#D3D4D4" d="M47.5,12 L47.5,4 L47.5,4 C47.5,1.790861 49.290861,0 51.5,0 L51.5,0 L556.5,0" transform="matrix(-1 0 0 1 604 0)"/>
+      <rect width="55" height="12" fill="url(#a)" transform="matrix(-1 0 0 1 55 0)"/>
+    </g>
+  </g>
+</svg>

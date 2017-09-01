@@ -1,0 +1,32 @@
+<!--[if IE 9]><script src="https://cdn.jsdelivr.net/classlist/2014.01.31/classList.min.js"></script><![endif]-->
+<script src="http://buzinas.github.io/simple-scrollbar/simple-scrollbar.min.js"></script>
+
+
+
+<!-- Measure the window size - for setting media queries -->
+<!--
+<script type="text/javascript">
+
+window.onresize = displayWindowSize;
+window.onload = displayWindowSize;
+
+function displayWindowSize() {
+  var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) == 'number' ) {
+        myWidth = window.innerWidth; myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+        myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+        myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+    }
+  document.getElementById("dimensions").innerHTML = myWidth + "x" + myHeight;
+};
+
+</script>
+-->
+
+<!-- Generate random background image -->
+
+<script type="text/javascript">
+ChangeIt();
+</script>

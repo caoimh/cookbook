@@ -1,0 +1,22 @@
+hr {
+  margin: auto;
+  margin-top : 5em;
+  margin-bottom : 5em;
+  margin-left : 2em;
+  margin-right : 2em;
+  height : 1px;
+  border :0;
+  background: $grey_dark;
+
+}
+hr.style-birdy {
+  text-align: center;
+}
+hr.style-birdy:after {
+  content: url("../images/birdy2.svg");
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  padding: 0 8px;
+  background: $grey_superLight;
+}

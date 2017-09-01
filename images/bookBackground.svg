@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1216" height="100" viewBox="0 0 1216 100">
+  <defs>
+    <linearGradient id="a" x1="100%" x2="0%" y1="50%" y2="50%">
+      <stop stop-color="#D8D8D8" offset="0%"/>
+      <stop stop-color="#F5F6F6" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="2" height="100" fill="#128898"/>
+    <rect width="33" height="100" x="2" fill="#36C2D6"/>
+    <rect width="1" height="100" x="35" fill="#31B2C5"/>
+    <rect width="1" height="100" x="36" fill="#D3D4D4"/>
+    <rect width="1" height="100" x="49" fill="#D3D4D4"/>
+    <rect width="509" height="100" x="50" fill="#F5F6F6"/>
+    <rect width="55" height="100" x="551" fill="url(#a)"/>
+    <rect width="1" height="100" x="606" fill="#C1C1C1"/>
+    <rect width="12" height="100" x="37" fill="#E6E7E7"/>
+    <g transform="translate(607)">
+      <rect width="2" height="100" x="607" fill="#128898" transform="matrix(-1 0 0 1 1216 0)"/>
+      <rect width="11" height="100" x="596" fill="#36C2D6" transform="matrix(-1 0 0 1 1203 0)"/>
+      <rect width="1" height="100" x="596" fill="#31B2C5" transform="matrix(-1 0 0 1 1193 0)"/>
+      <rect width="1" height="100" x="569" fill="#D3D4D4" transform="matrix(-1 0 0 1 1139 0)"/>
+      <rect width="1" height="100" x="556" fill="#D3D4D4" transform="matrix(-1 0 0 1 1113 0)"/>
+      <rect width="509" height="100" x="47" fill="#F5F6F6" transform="matrix(-1 0 0 1 603 0)"/>
+      <rect width="55" height="100" fill="url(#a)" transform="matrix(-1 0 0 1 55 0)"/>
+      <rect width="12" height="100" x="557" fill="#E6E7E7" transform="matrix(-1 0 0 1 1126 0)"/>
+      <rect width="1" height="100" x="582" fill="#AEAEAE" transform="matrix(-1 0 0 1 1165 0)"/>
+      <rect width="12" height="100" x="570" fill="#D8D9D8" transform="matrix(-1 0 0 1 1152 0)"/>
+      <rect width="1" height="100" x="595" fill="#A8A8A8" transform="matrix(-1 0 0 1 1191 0)"/>
+      <rect width="12" height="100" x="583" fill="#C4C4C4" transform="matrix(-1 0 0 1 1178 0)"/>
+    </g>
+  </g>
+</svg>

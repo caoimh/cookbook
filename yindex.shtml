@@ -1,0 +1,41 @@
+<!--#include virtual="includes/htmlstart.shtml" -->
+<!--#include virtual="includes/headstart.shtml" -->
+<!--#include virtual="includes/meta.shtml" -->
+<!--#include virtual="includes/title.shtml" -->
+<!--#include virtual="includes/headscripts.shtml" -->
+<link rel="stylesheet" href="styles/columns.css">
+<link rel="stylesheet" href="styles/simple-scrollbar.css">
+<!--#include virtual="includes/headstop.shtml" -->
+<!--#include virtual="includes/bodystart.shtml" -->
+<!--#include virtual="includes/browsehappy.shtml" -->
+
+
+
+<section>
+  <div class="a"></div>
+  <div class="b"></div>
+  <div class="c" ss-container>
+    <hr class="style-birdy">
+    <!--<p id="dimensions">width is</p>-->
+    <h1>
+      EGGS Cookbook
+      <br><span>Key ingredients and recipies of EGGS design</span>
+    </h1>
+    <!--#include virtual="includes/content/tableOfContents.shtml"-->
+  </div>
+  <div class="d" ss-container>
+    <hr>
+    <!--#include virtual="includes/content/contentHolder.shtml"-->
+  </div>
+  <div class="e"></div>
+  <div class="f"></div>
+  <div class="g"></div>
+  <div class="h"></div>
+</section>
+
+
+
+
+<!--#include virtual="includes/basescripts.shtml" -->
+<!--#include virtual="includes/bodystop.shtml" -->
+<!--#include virtual="includes/htmlstop.shtml" -->

@@ -1,0 +1,55 @@
+/* COLORS */
+
+$white : #ffffff;
+$black : #000;
+
+$blue : #36c2d6;
+$blue_dark : #128898;
+
+$grey_superLight : #f5f5f5;
+$grey_extraLight : #e6e7e7;
+$grey_light : #d8d9d8;
+$grey_mediumLight : #CDCECD;
+$grey : #c4c4c4;
+$grey_mediumDark : #979797;
+$grey_dark : #6b6b6b;
+$grey_superDark : #374045;
+
+$pink : #ffcc00;
+
+.white {
+  background-color: $white;
+}
+
+.grey_superLight {
+  background-color : $grey_superLight;
+}
+.grey_extraLight {
+  background-color : $grey_extraLight;
+}
+.grey_light {
+  background-color : $grey_light;
+}
+.grey_mediumLight {
+  background-color : $grey_mediumLight;
+}
+.grey {
+  background-color : $grey;
+}
+.grey_dark {
+  background-color : $grey_dark;
+}
+.grey_mediumDark {
+  background-color: $grey_mediumDark;
+}
+.grey_superDark {
+  background-color : $grey_superDark;
+}
+
+.blue {
+  background-color : $blue;
+}
+
+.blue_dark {
+  background-color : $blue_dark;
+}

@@ -1,0 +1,48 @@
+/*-- LISTS --*/
+
+ol,
+ul {
+  @include marginBL(2);
+}
+
+ol li,
+ul li {
+  @include marginBL(0.5);
+}
+
+.noBullet li {
+	list-style : none;
+}
+
+/* Table of contents */
+
+ul.toc {
+max-width: 40em;
+padding: 0;
+overflow-x: hidden;
+list-style: none;
+margin: 0;
+}
+
+ul.toc li:before {
+float: left;
+width: 0;
+white-space: nowrap;
+
+content:
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+}
+
+ul.toc span:first-child {
+padding-right: 0.33em;
+background-color: #fff;
+}
+
+ul.toc span + span {
+float: right;
+padding-left: 0.33em;
+background-color: #fff;
+}

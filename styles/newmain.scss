@@ -1,0 +1,165 @@
+@import 'partials/all';
+@import 'normalise/all';
+@import 'defaults/all';
+
+*, *:before, *:after
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+	position: absolute;
+}
+
+body {
+  background: $grey_superDark;
+}
+
+
+section {
+	margin: auto;
+	max-width: 64em;
+	//background-color: #000;
+	@include flexbox();
+
+	.partsWrapper {
+		@include flex-direction(row);
+	}
+}
+
+p {
+	padding: 2em;
+}
+
+#top {
+	margin-top : 13vh;
+}
+
+#bottom {
+	height : 75vh;
+}
+
+.edgeWrapper {
+	//background-color: #ffcc00;
+	width : 80px;
+	@include flexbox();
+
+	div {
+		@include flex(1);
+	}
+
+}
+
+#bottom  {
+	.edgeWrapper {
+		height : 75vh;
+	}
+}
+
+#bottom {
+	.edgeWrapper.left {
+		.book-cover {
+			@include flex-grow(3);
+		}
+	}
+}
+
+.page-1 {
+	background-color: #e6e7e7;
+}
+
+.page-2 {
+	background-color: #d8d9d8;
+}
+
+.page-3 {
+	background-color: #c4c4c4;
+}
+
+.book-cover {
+	background-color: $blue;
+}
+
+
+.innerWrapper {
+	@include flex();
+	background-color: #fff;
+}
+
+/*
+<div class="edgeWrapper right">
+	<div class="page-1">a</div>
+	<div class="page-2">b</div>
+	<div class="page-3">c</div>
+	<div class="book-cover">d</div>
+</div>
+*/
+
+// @include border-radius(top left, top right, bottom right, bottom left);
+
+
+#top {
+	.innerWrapper.right {
+		@include border-left-radius(48px);
+		@include border-right-radius(8px);
+		@include border-bottom-radius(0px);
+		background-color: #fff;
+	}
+
+	.innerWrapper.left {
+		@include border-right-radius(48px);
+		@include border-left-radius(8px);
+		@include border-bottom-radius(0px);
+		background-color: #fff;
+	}
+
+	/* edgeWrapper contains the edges of
+	/* the books pages
+	/*
+	/*
+	*/
+	.edgeWrapper.right {
+		.page-1 {
+			margin-top: 16px;
+				@include border-right-radius(8px);
+				@include border-bottom-radius(0px);
+		}
+		.page-2 {
+			margin-top: 32px;
+				@include border-right-radius(8px);
+				@include border-bottom-radius(0px);
+		}
+		.page-3 {
+			margin-top: 48px;
+			@include border-right-radius(8px);
+			@include border-bottom-radius(0px);
+		}
+		.book-cover {
+			margin-top: 64px;
+			@include border-right-radius(8px);
+			@include border-bottom-radius(0px);
+		}
+	}
+
+// left side pageWrapper
+
+.edgeWrapper.left {
+	.page-1 {
+		margin-top: 16px;
+			@include border-left-radius(8px);
+			@include border-bottom-radius(0px);
+	}
+	.book-cover {
+		margin-top: 64px;
+		@include border-left-radius(8px);
+		@include border-bottom-radius(0px);
+		@include flex-grow(3);
+	}
+}
+}
