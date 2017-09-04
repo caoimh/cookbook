@@ -123,6 +123,9 @@ a.resourceLink:visited {
 	@include border-left-radius(0.5em);
 	@include border-bottom-radius(0px);
 	background: linear-gradient(90deg, $grey_superLight, $grey_superLight 85%, $grey_light);
+	padding-top: 3em;
+	padding-bottom: 2em;
+	// Hellow
 }
 
 .d {
@@ -130,6 +133,8 @@ a.resourceLink:visited {
 	@include border-right-radius(0.5em);
 	@include border-bottom-radius(0px);
 	background-color: $grey_superLight;
+	padding-top: 3em;
+	padding-bottom: 2em;
 	//background: linear-gradient(90deg, $grey_mediumDark 1%, $grey 2%, $grey_light, $grey_superLight 5%);
 }
 
