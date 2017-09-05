@@ -3,42 +3,37 @@
 <!--#include virtual="includes/meta.shtml" -->
 <!--#include virtual="includes/title.shtml" -->
 <!--#include virtual="includes/headscripts.shtml" -->
-<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/columns.css">
 <link rel="stylesheet" href="styles/simple-scrollbar.css">
 <!--#include virtual="includes/headstop.shtml" -->
 <!--#include virtual="includes/bodystart.shtml" -->
 <!--#include virtual="includes/browsehappy.shtml" -->
 
 
-<section class="main">
-  <div class="innerwrapper">
-    <div class="leftDiv">
-      <div class="leftEdge">
-        <div class="page blue">&nbsp;</div>
-        <div class="page blue" style="border : 0;">&nbsp;</div>
-        <div class="page step-2 grey_light">&nbsp;</div>
-        <div class="page step-1 grey_extraLight">&nbsp;</div>
-      </div>
-      <div class="leftContent" style=" display: inline-block;" ss-container>
-        <hr class="style-birdy">
-        <!--#include virtual="includes/content/test.shtml" -->
-      </div>
-    </div>
 
-    <div class="rightDiv">
-      <div class="rightContent" style=" display: inline-block;" ss-container>
-        <hr class="style-birdy">
-        <!--#include virtual="includes/content/test.shtml" -->
-      </div>
-      <div class="rightEdge">
-        <div class="page step-1 grey_extraLight">&nbsp;</div>
-        <div class="page step-2 grey_light">&nbsp;</div>
-        <div class="page step-3 grey">&nbsp;</div>
-        <div class="page blue">&nbsp;</div>
-      </div>
-    </div>
+<section>
+  <div class="a"></div>
+  <div class="b"></div>
+  <div class="c" ss-container>
+    <hr class="style-birdy">
+    <!--<p id="dimensions">width is</p>-->
+    <h1>
+      EGGS Cookbook
+      <br><span>Key ingredients and recipies of EGGS design</span>
+    </h1>
+    <!--#include virtual="includes/content/tableOfContents.shtml"-->
   </div>
+  <div class="d" ss-container>
+    <hr>
+    <!--#include virtual="includes/content/contentHolder.shtml"-->
+  </div>
+  <div class="e"></div>
+  <div class="f"></div>
+  <div class="g"></div>
+  <div class="h"></div>
 </section>
+
+
 
 
 <!--#include virtual="includes/basescripts.shtml" -->
